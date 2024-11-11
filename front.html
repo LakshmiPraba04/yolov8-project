@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YOLOv8 Image Prediction</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <h1>Upload Image for YOLOv8 Prediction</h1>
+    <form id="upload-form" enctype="multipart/form-data">
+        <input type="file" name="file" accept="image/*" required>
+        <button type="submit">Upload</button>
+    </form>
+    <div id="result"></div>
+    <div id="predictions"></div>
+
+    <script>
+        document.getElementById('upload-form').onsubmit = async (e) => {
+            e.preventDefault();
+            const formData = new FormData(e.target);
+            const response = await fetch('/predict', {
+                method: 'POST',
+                body: formData
+            });
+            const data = await response.json();
+
+            // Display the uploaded image
+            const resultDiv = document.getElementById('result');
+            // Assuming your back.py is returning the processed image path
+            resultDiv.innerHTML = `
+                <div>
+                    <h2>Predicted Image:</h2>
+                    <img src="${data.result_img}" alt="Result Image" style="max-width: 100%; height: auto;">
+                </div>
+            `;
+
+            // Display predictions
+            const predictionsDiv = document.getElementById('predictions');
+            predictionsDiv.innerHTML = `
+                <div>
+                    <h2>Predictions:</h2>
+                    <pre>${JSON.stringify(data.predictions, null, 2)}</pre>
+                </div>
+            `;
+        };
+    </script>
+</body>
+</html>

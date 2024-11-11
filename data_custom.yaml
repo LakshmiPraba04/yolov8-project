@@ -1,0 +1,29 @@
+path: C:\Users\laksh\Documents\sample
+train: C:\Users\laksh\Documents\sample\images\train
+val: C:\Users\laksh\Documents\sample\images\train
+
+nc: 344
+names: [
+  'a', 'aa', 'ba', 'baa', 'bai', 'bau', 'be', 'bee', 'bha', 'bhaa', 'bhai', 'bhau', 'bhee', 'bhi', 'bho', 'bhoo', 
+  'bhu', 'bhya', 'bi', 'bo', 'boo', 'bra', 'bu', 'cha', 'chaa', 'chai', 'chau', 'che', 'chee', 'chha', 'chhaa', 
+  'chhai', 'chhau', 'chhe', 'chhee', 'chhi', 'chho', 'chhoo', 'chhu', 'chi', 'cho', 'choo', 'chu', 'cya', 'da', 
+  'ḍa', 'daa', 'ḍaa', 'dai', 'ḍai', 'dau', 'ḍau', 'de', 'ḍe', 'dee', 'ḍee', 'dha', 'ḍha', 'dhaa', 'ḍhaa', 'dhai', 
+  'ḍhai', 'dhau', 'ḍhau', 'dhe', 'ḍhe', 'dhee', 'ḍhee', 'dhi', 'ḍhi', 'dho', 'ḍho', 'dhoo', 'ḍhoo', 'dhu', 'ḍhu', 
+  'dhya', 'di', 'ḍi', 'do', 'ḍo', 'doo', 'ḍoo', 'du', 'ḍu', 'dva', 'e', 'ga', 'gaa', 'gai', 'gau', 'ge', 'gee', 
+  'gha', 'ghaa', 'ghai', 'ghau', 'ghe', 'ghee', 'ghi','gho','ghoo', 'ghu', 'gi', 'go', 'goo', 'gu', 'gya', 'ha', 
+  'haa', 'hai', 'hau', 'he', 'hee', 'hi', 'hima', 'hma', 'ho', 'hoo', 'hu', 'hva', 'hya', 'i', 'ja', 'jaa', 'jai', 
+  'jau', 'je', 'jee', 'jha', 'jhaa', 'jhai', 'jhau', 'jhe', 'jhee', 'jhi', 'jho', 'jhoo', 'jhu', 'ji', 'jo', 'joo', 
+  'ju', 'ka', 'kaa', 'kai', 'kau', 'ke', 'kee', 'kha', 'khaa', 'khai', 'khau', 'khe', 'khee', 'khi', 'kho', 'khoo', 
+  'khu', 'khya', 'ki', 'ko', 'koo', 'kra', 'ku', 'kya', 'la', 'laa', 'lai', 'lau', 'le', 'lee', 'li', 'lo', 'loo', 
+  'lu', 'ma', 'maa', 'mai', 'mau', 'me', 'mee', 'mha', 'mi', 'mo', 'moo', 'mu', 'mya', 'na', 'ṇa', 'naa', 'ṇaa', 
+  'nai', 'ṇai', 'nau', 'ṇau', 'ne', 'ṇe', 'nee','ṇee', 'ni', 'ṇi', 'no', 'ṇo', 'noo', 'ṇoo', 'nu', 'ṇu', 'nya', 
+  'o', 'pa', 'paa', 'pai', 'pau', 'pe', 'pee', 'pha','phaa', 'phai', 'phau', 'phe', 'phee', 'phi', 'pho', 'phoo', 
+  'phu', 'pi', 'po', 'poo', 'pra', 'pta', 'pu', 'ra', 'raa', 'rai', 'rau', 'rda', 're', 'ree', 'ri', 'ro', 'roo', 
+  'rsa', 'ru', 'rva', 'sa', 'ṣa', 'saa', 'ṣaa', 'sai', 'ṣai', 'sau', 'se', 'ṣe', 'see', 'ṣee' , 'sha', 'shaa', 'shai', 
+  'shau', 'ṣhau', 'she', 'shee', 'sho', 'si', 'ṣi', 'skha', 'sma', 'so', 'ṣo', 'soo', 'ṣoo', 'spa', 'sta', 'su', 
+  'ṣu', 'sva', 'ṣva', 'sya', 'ta', 'ṭa', 'taa', 'ṭaa', 'tai', 'ṭai', 'tau', 'ṭau', 'te', 'ṭe', 'tee', 'ṭee', 'tha', 
+  'ṭha', 'thaa', 'ṭhaa', 'thai', 'ṭhai', 'thau', 'ṭhau', 'the', 'ṭhe', 'thee', 'ṭhee', 'thi', 'ṭhi', 'tho', 'ṭho', 
+  'thoo', 'ṭhoo', 'thu', 'ṭhu', 'ti', 'ṭi', 'to', 'ṭo', 'too', 'ṭoo', 'tra', 'tu', 'ṭu', 'tva', 'tya', 'va', 'vaa', 
+  'vai', 'vau', 've', 'vee', 'vi', 'vo', 'voo', 'vu', 'vya', 'ya', 'yaa', 'yai', 'yau', 'ye', 'yi', 'yo', 'yoo', 
+  'yu', 'yva', 'shoo'
+]
